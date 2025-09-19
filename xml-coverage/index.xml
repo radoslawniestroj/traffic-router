@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <build time="Fri Sep 19 22:51:43 UTC 2025" phpunit="12.3.11" coverage="12.3.8">
+    <runtime name="PHP" version="8.3.25" url="https://www.php.net/"/>
+    <driver name="xdebug" version="3.4.5"/>
+  </build>
+  <project source="/var/www/html/src">
+    <tests>
+      <test name="App\Tests\Controller\PaymentControllerTest::testEqualStrategyReturnsGatewayName" size="unknown" status="failure"/>
+      <test name="App\Tests\Service\EqualTrafficSplitTest::testEqualDistributionApproximate" size="unknown" status="success"/>
+      <test name="App\Tests\Service\WeightedTrafficSplitTest::testWeightedDistributionApproximate" size="unknown" status="success"/>
+    </tests>
+    <directory name="/">
+      <totals>
+        <lines total="399" comments="74" code="325" executable="95" executed="33" percent="34.74"/>
+        <methods count="17" tested="5" percent="29.41"/>
+        <functions count="0" tested="0" percent="0"/>
+        <classes count="6" tested="0" percent="0.00"/>
+        <traits count="0" tested="0" percent="0"/>
+      </totals>
+      <directory name="Contract">
+        <totals>
+          <lines total="25" comments="10" code="15" executable="0" executed="0" percent="0"/>
+          <methods count="0" tested="0" percent="0"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="0" tested="0" percent="0"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="PaymentGatewayInterface.php" href="Contract/PaymentGatewayInterface.php.xml">
+          <totals>
+            <lines total="25" comments="10" code="15" executable="0" executed="0" percent="0"/>
+            <methods count="0" tested="0" percent="0"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="0" tested="0" percent="0"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Controller">
+        <totals>
+          <lines total="121" comments="27" code="94" executable="46" executed="0" percent="0.00"/>
+          <methods count="2" tested="0" percent="0.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="PaymentController.php" href="Controller/PaymentController.php.xml">
+          <totals>
+            <lines total="121" comments="27" code="94" executable="46" executed="0" percent="0.00"/>
+            <methods count="2" tested="0" percent="0.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Dto">
+        <totals>
+          <lines total="29" comments="0" code="29" executable="4" executed="1" percent="25.00"/>
+          <methods count="4" tested="1" percent="25.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="Payment.php" href="Dto/Payment.php.xml">
+          <totals>
+            <lines total="29" comments="0" code="29" executable="4" executed="1" percent="25.00"/>
+            <methods count="4" tested="1" percent="25.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Gateway">
+        <totals>
+          <lines total="35" comments="2" code="33" executable="4" executed="3" percent="75.00"/>
+          <methods count="4" tested="3" percent="75.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="FakeGateway.php" href="Gateway/FakeGateway.php.xml">
+          <totals>
+            <lines total="35" comments="2" code="33" executable="4" executed="3" percent="75.00"/>
+            <methods count="4" tested="3" percent="75.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Service">
+        <totals>
+          <lines total="177" comments="35" code="142" executable="41" executed="29" percent="70.73"/>
+          <methods count="7" tested="1" percent="14.29"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="3" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="EqualTrafficSplit.php" href="Service/EqualTrafficSplit.php.xml">
+          <totals>
+            <lines total="38" comments="8" code="30" executable="7" executed="6" percent="85.71"/>
+            <methods count="2" tested="1" percent="50.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="PaymentRouter.php" href="Service/PaymentRouter.php.xml">
+          <totals>
+            <lines total="40" comments="9" code="31" executable="4" executed="0" percent="0.00"/>
+            <methods count="3" tested="0" percent="0.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="TrafficSplitInterface.php" href="Service/TrafficSplitInterface.php.xml">
+          <totals>
+            <lines total="12" comments="0" code="12" executable="0" executed="0" percent="0"/>
+            <methods count="0" tested="0" percent="0"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="0" tested="0" percent="0"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="WeightedTrafficSplit.php" href="Service/WeightedTrafficSplit.php.xml">
+          <totals>
+            <lines total="87" comments="18" code="69" executable="30" executed="23" percent="76.67"/>
+            <methods count="2" tested="0" percent="0.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <file name="Kernel.php" href="Kernel.php.xml">
+        <totals>
+          <lines total="12" comments="0" code="12" executable="0" executed="0" percent="0"/>
+          <methods count="0" tested="0" percent="0"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="0" tested="0" percent="0"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+      </file>
+    </directory>
+  </project>
+</phpunit>

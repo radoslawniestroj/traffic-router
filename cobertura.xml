@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.34736842105263" branch-rate="0" lines-covered="33" lines-valid="95" branches-covered="0" branches-valid="0" complexity="45" version="0.4" timestamp="1758322303">
+  <sources>
+    <source>/var/www/html/src</source>
+  </sources>
+  <packages>
+    <package name="Contract/PaymentGatewayInterface.php" line-rate="0" branch-rate="0" complexity="0">
+      <classes/>
+    </package>
+    <package name="Controller/PaymentController.php" line-rate="0" branch-rate="0" complexity="20">
+      <classes>
+        <class name="App\Controller\PaymentController" filename="Controller/PaymentController.php" line-rate="0" branch-rate="0" complexity="20">
+          <methods>
+            <method name="__construct" signature="PaymentRouter $router, array $demoGateways" line-rate="0" branch-rate="0" complexity="1">
+              <lines>
+                <line number="26" hits="0"/>
+                <line number="27" hits="0"/>
+              </lines>
+            </method>
+            <method name="create" signature="Request $request" line-rate="0" branch-rate="0" complexity="19">
+              <lines>
+                <line number="47" hits="0"/>
+                <line number="49" hits="0"/>
+                <line number="50" hits="0"/>
+                <line number="51" hits="0"/>
+                <line number="53" hits="0"/>
+                <line number="56" hits="0"/>
+                <line number="57" hits="0"/>
+                <line number="58" hits="0"/>
+                <line number="59" hits="0"/>
+                <line number="60" hits="0"/>
+                <line number="63" hits="0"/>
+                <line number="64" hits="0"/>
+                <line number="65" hits="0"/>
+                <line number="68" hits="0"/>
+                <line number="70" hits="0"/>
+                <line number="72" hits="0"/>
+                <line number="74" hits="0"/>
+                <line number="75" hits="0"/>
+                <line number="76" hits="0"/>
+                <line number="78" hits="0"/>
+                <line number="79" hits="0"/>
+                <line number="80" hits="0"/>
+                <line number="81" hits="0"/>
+                <line number="82" hits="0"/>
+                <line number="83" hits="0"/>
+                <line number="87" hits="0"/>
+                <line number="88" hits="0"/>
+                <line number="89" hits="0"/>
+                <line number="90" hits="0"/>
+                <line number="95" hits="0"/>
+                <line number="96" hits="0"/>
+                <line number="97" hits="0"/>
+                <line number="98" hits="0"/>
+                <line number="99" hits="0"/>
+                <line number="103" hits="0"/>
+                <line number="104" hits="0"/>
+                <line number="105" hits="0"/>
+                <line number="106" hits="0"/>
+                <line number="111" hits="0"/>
+                <line number="112" hits="0"/>
+                <line number="115" hits="0"/>
+                <line number="116" hits="0"/>
+                <line number="117" hits="0"/>
+                <line number="118" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="26" hits="0"/>
+            <line number="27" hits="0"/>
+            <line number="47" hits="0"/>
+            <line number="49" hits="0"/>
+            <line number="50" hits="0"/>
+            <line number="51" hits="0"/>
+            <line number="53" hits="0"/>
+            <line number="56" hits="0"/>
+            <line number="57" hits="0"/>
+            <line number="58" hits="0"/>
+            <line number="59" hits="0"/>
+            <line number="60" hits="0"/>
+            <line number="63" hits="0"/>
+            <line number="64" hits="0"/>
+            <line number="65" hits="0"/>
+            <line number="68" hits="0"/>
+            <line number="70" hits="0"/>
+            <line number="72" hits="0"/>
+            <line number="74" hits="0"/>
+            <line number="75" hits="0"/>
+            <line number="76" hits="0"/>
+            <line number="78" hits="0"/>
+            <line number="79" hits="0"/>
+            <line number="80" hits="0"/>
+            <line number="81" hits="0"/>
+            <line number="82" hits="0"/>
+            <line number="83" hits="0"/>
+            <line number="87" hits="0"/>
+            <line number="88" hits="0"/>
+            <line number="89" hits="0"/>
+            <line number="90" hits="0"/>
+            <line number="95" hits="0"/>
+            <line number="96" hits="0"/>
+            <line number="97" hits="0"/>
+            <line number="98" hits="0"/>
+            <line number="99" hits="0"/>
+            <line number="103" hits="0"/>
+            <line number="104" hits="0"/>
+            <line number="105" hits="0"/>
+            <line number="106" hits="0"/>
+            <line number="111" hits="0"/>
+            <line number="112" hits="0"/>
+            <line number="115" hits="0"/>
+            <line number="116" hits="0"/>
+            <line number="117" hits="0"/>
+            <line number="118" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Dto/Payment.php" line-rate="0.25" branch-rate="0" complexity="4">
+      <classes>
+        <class name="App\Dto\Payment" filename="Dto/Payment.php" line-rate="0.25" branch-rate="0" complexity="4">
+          <methods>
+            <method name="__construct" signature="float $amount, string $currency, ?string $id" line-rate="1" branch-rate="0" complexity="1">
+              <lines>
+                <line number="12" hits="2"/>
+              </lines>
+            </method>
+            <method name="getAmount" signature="" line-rate="0" branch-rate="0" complexity="1">
+              <lines>
+                <line number="16" hits="0"/>
+              </lines>
+            </method>
+            <method name="getCurrency" signature="" line-rate="0" branch-rate="0" complexity="1">
+              <lines>
+                <line number="21" hits="0"/>
+              </lines>
+            </method>
+            <method name="getId" signature="" line-rate="0" branch-rate="0" complexity="1">
+              <lines>
+                <line number="26" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="2"/>
+            <line number="16" hits="0"/>
+            <line number="21" hits="0"/>
+            <line number="26" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Gateway/FakeGateway.php" line-rate="0.75" branch-rate="0" complexity="4">
+      <classes>
+        <class name="App\Gateway\FakeGateway" filename="Gateway/FakeGateway.php" line-rate="0.75" branch-rate="0" complexity="4">
+          <methods>
+            <method name="__construct" signature="string $name" line-rate="1" branch-rate="0" complexity="1">
+              <lines>
+                <line number="15" hits="2"/>
+              </lines>
+            </method>
+            <method name="getTrafficLoad" signature="" line-rate="1" branch-rate="0" complexity="1">
+              <lines>
+                <line number="20" hits="2"/>
+              </lines>
+            </method>
+            <method name="handlePayment" signature="Payment $payment" line-rate="1" branch-rate="0" complexity="1">
+              <lines>
+                <line number="26" hits="2"/>
+              </lines>
+            </method>
+            <method name="getName" signature="" line-rate="0" branch-rate="0" complexity="1">
+              <lines>
+                <line number="32" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="2"/>
+            <line number="20" hits="2"/>
+            <line number="26" hits="2"/>
+            <line number="32" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Kernel.php" line-rate="0" branch-rate="0" complexity="0">
+      <classes>
+        <class name="App\Kernel" filename="Kernel.php" line-rate="0" branch-rate="0" complexity="0">
+          <methods/>
+          <lines/>
+        </class>
+      </classes>
+    </package>
+    <package name="Service/EqualTrafficSplit.php" line-rate="0.85714285714286" branch-rate="0" complexity="3">
+      <classes>
+        <class name="App\Service\EqualTrafficSplit" filename="Service/EqualTrafficSplit.php" line-rate="0.85714285714286" branch-rate="0" complexity="3">
+          <methods>
+            <method name="__construct" signature="array $gateways" line-rate="0.66666666666667" branch-rate="0" complexity="2">
+              <lines>
+                <line number="21" hits="1"/>
+                <line number="22" hits="0"/>
+                <line number="26" hits="1"/>
+              </lines>
+            </method>
+            <method name="handlePayment" signature="Payment $payment" line-rate="1" branch-rate="0" complexity="1">
+              <lines>
+                <line number="32" hits="1"/>
+                <line number="33" hits="1"/>
+                <line number="34" hits="1"/>
+                <line number="35" hits="1"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="1"/>
+            <line number="22" hits="0"/>
+            <line number="26" hits="1"/>
+            <line number="32" hits="1"/>
+            <line number="33" hits="1"/>
+            <line number="34" hits="1"/>
+            <line number="35" hits="1"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Service/PaymentRouter.php" line-rate="0" branch-rate="0" complexity="3">
+      <classes>
+        <class name="App\Service\PaymentRouter" filename="Service/PaymentRouter.php" line-rate="0" branch-rate="0" complexity="3">
+          <methods>
+            <method name="__construct" signature="PaymentGatewayInterface $defaultGateway, array $namedGateways" line-rate="0" branch-rate="0" complexity="1">
+              <lines>
+                <line number="19" hits="0"/>
+                <line number="20" hits="0"/>
+              </lines>
+            </method>
+            <method name="routePayment" signature="TrafficSplitInterface $strategy, Payment $payment" line-rate="0" branch-rate="0" complexity="1">
+              <lines>
+                <line number="29" hits="0"/>
+              </lines>
+            </method>
+            <method name="getGatewayByName" signature="string $name" line-rate="0" branch-rate="0" complexity="1">
+              <lines>
+                <line number="37" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="0"/>
+            <line number="20" hits="0"/>
+            <line number="29" hits="0"/>
+            <line number="37" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Service/TrafficSplitInterface.php" line-rate="0" branch-rate="0" complexity="0">
+      <classes/>
+    </package>
+    <package name="Service/WeightedTrafficSplit.php" line-rate="0.76666666666667" branch-rate="0" complexity="11">
+      <classes>
+        <class name="App\Service\WeightedTrafficSplit" filename="Service/WeightedTrafficSplit.php" line-rate="0.76666666666667" branch-rate="0" complexity="11">
+          <methods>
+            <method name="__construct" signature="array $gatewaysWithWeights" line-rate="0.80952380952381" branch-rate="0" complexity="8">
+              <lines>
+                <line number="32" hits="1"/>
+                <line number="33" hits="0"/>
+                <line number="36" hits="1"/>
+                <line number="37" hits="1"/>
+                <line number="38" hits="1"/>
+                <line number="39" hits="0"/>
+                <line number="42" hits="1"/>
+                <line number="43" hits="1"/>
+                <line number="44" hits="1"/>
+                <line number="45" hits="0"/>
+                <line number="47" hits="1"/>
+                <line number="48" hits="1"/>
+                <line number="51" hits="1"/>
+                <line number="52" hits="0"/>
+                <line number="55" hits="1"/>
+                <line number="58" hits="1"/>
+                <line number="59" hits="1"/>
+                <line number="60" hits="1"/>
+                <line number="61" hits="1"/>
+                <line number="62" hits="1"/>
+                <line number="64" hits="1"/>
+              </lines>
+            </method>
+            <method name="handlePayment" signature="Payment $payment" line-rate="0.66666666666667" branch-rate="0" complexity="3">
+              <lines>
+                <line number="70" hits="1"/>
+                <line number="73" hits="1"/>
+                <line number="74" hits="1"/>
+                <line number="75" hits="1"/>
+                <line number="76" hits="1"/>
+                <line number="77" hits="1"/>
+                <line number="82" hits="0"/>
+                <line number="83" hits="0"/>
+                <line number="84" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="32" hits="1"/>
+            <line number="33" hits="0"/>
+            <line number="36" hits="1"/>
+            <line number="37" hits="1"/>
+            <line number="38" hits="1"/>
+            <line number="39" hits="0"/>
+            <line number="42" hits="1"/>
+            <line number="43" hits="1"/>
+            <line number="44" hits="1"/>
+            <line number="45" hits="0"/>
+            <line number="47" hits="1"/>
+            <line number="48" hits="1"/>
+            <line number="51" hits="1"/>
+            <line number="52" hits="0"/>
+            <line number="55" hits="1"/>
+            <line number="58" hits="1"/>
+            <line number="59" hits="1"/>
+            <line number="60" hits="1"/>
+            <line number="61" hits="1"/>
+            <line number="62" hits="1"/>
+            <line number="64" hits="1"/>
+            <line number="70" hits="1"/>
+            <line number="73" hits="1"/>
+            <line number="74" hits="1"/>
+            <line number="75" hits="1"/>
+            <line number="76" hits="1"/>
+            <line number="77" hits="1"/>
+            <line number="82" hits="0"/>
+            <line number="83" hits="0"/>
+            <line number="84" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

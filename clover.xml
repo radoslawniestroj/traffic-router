@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1758322303">
+  <project timestamp="1758322303" name="Clover Coverage">
+    <file name="/var/www/html/src/Contract/PaymentGatewayInterface.php">
+      <metrics loc="25" ncloc="15" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="App\Controller">
+      <file name="/var/www/html/src/Controller/PaymentController.php">
+        <class name="App\Controller\PaymentController" namespace="App\Controller">
+          <metrics complexity="20" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="46" coveredstatements="0" elements="48" coveredelements="0"/>
+        </class>
+        <line num="24" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="45" type="method" name="create" visibility="public" complexity="19" crap="380" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="65" type="stmt" count="0"/>
+        <line num="68" type="stmt" count="0"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="72" type="stmt" count="0"/>
+        <line num="74" type="stmt" count="0"/>
+        <line num="75" type="stmt" count="0"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="78" type="stmt" count="0"/>
+        <line num="79" type="stmt" count="0"/>
+        <line num="80" type="stmt" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="82" type="stmt" count="0"/>
+        <line num="83" type="stmt" count="0"/>
+        <line num="87" type="stmt" count="0"/>
+        <line num="88" type="stmt" count="0"/>
+        <line num="89" type="stmt" count="0"/>
+        <line num="90" type="stmt" count="0"/>
+        <line num="95" type="stmt" count="0"/>
+        <line num="96" type="stmt" count="0"/>
+        <line num="97" type="stmt" count="0"/>
+        <line num="98" type="stmt" count="0"/>
+        <line num="99" type="stmt" count="0"/>
+        <line num="103" type="stmt" count="0"/>
+        <line num="104" type="stmt" count="0"/>
+        <line num="105" type="stmt" count="0"/>
+        <line num="106" type="stmt" count="0"/>
+        <line num="111" type="stmt" count="0"/>
+        <line num="112" type="stmt" count="0"/>
+        <line num="115" type="stmt" count="0"/>
+        <line num="116" type="stmt" count="0"/>
+        <line num="117" type="stmt" count="0"/>
+        <line num="118" type="stmt" count="0"/>
+        <metrics loc="121" ncloc="94" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="46" coveredstatements="0" elements="48" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Dto">
+      <file name="/var/www/html/src/Dto/Payment.php">
+        <class name="App\Dto\Payment" namespace="App\Dto">
+          <metrics complexity="4" methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="1" elements="8" coveredelements="2"/>
+        </class>
+        <line num="7" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="12" type="stmt" count="2"/>
+        <line num="14" type="method" name="getAmount" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="19" type="method" name="getCurrency" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="24" type="method" name="getId" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <metrics loc="29" ncloc="29" classes="1" methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="1" elements="8" coveredelements="2"/>
+      </file>
+    </package>
+    <package name="App\Gateway">
+      <file name="/var/www/html/src/Gateway/FakeGateway.php">
+        <class name="App\Gateway\FakeGateway" namespace="App\Gateway">
+          <metrics complexity="4" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="8" coveredelements="6"/>
+        </class>
+        <line num="13" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="15" type="stmt" count="2"/>
+        <line num="18" type="method" name="getTrafficLoad" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="20" type="stmt" count="2"/>
+        <line num="23" type="method" name="handlePayment" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="26" type="stmt" count="2"/>
+        <line num="30" type="method" name="getName" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <metrics loc="35" ncloc="33" classes="1" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="8" coveredelements="6"/>
+      </file>
+    </package>
+    <package name="App">
+      <file name="/var/www/html/src/Kernel.php">
+        <class name="App\Kernel" namespace="App">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="12" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Service">
+      <file name="/var/www/html/src/Service/EqualTrafficSplit.php">
+        <class name="App\Service\EqualTrafficSplit" namespace="App\Service">
+          <metrics complexity="3" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="6" elements="9" coveredelements="7"/>
+        </class>
+        <line num="19" type="method" name="__construct" visibility="public" complexity="2" crap="2.15" count="1"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="29" type="method" name="handlePayment" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <metrics loc="38" ncloc="30" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="6" elements="9" coveredelements="7"/>
+      </file>
+      <file name="/var/www/html/src/Service/PaymentRouter.php">
+        <class name="App\Service\PaymentRouter" namespace="App\Service">
+          <metrics complexity="3" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="7" coveredelements="0"/>
+        </class>
+        <line num="17" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="27" type="method" name="routePayment" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="35" type="method" name="getGatewayByName" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <metrics loc="40" ncloc="31" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="7" coveredelements="0"/>
+      </file>
+      <file name="/var/www/html/src/Service/WeightedTrafficSplit.php">
+        <class name="App\Service\WeightedTrafficSplit" namespace="App\Service">
+          <metrics complexity="11" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="30" coveredstatements="23" elements="32" coveredelements="23"/>
+        </class>
+        <line num="30" type="method" name="__construct" visibility="public" complexity="8" crap="8.44" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="48" type="stmt" count="1"/>
+        <line num="51" type="stmt" count="1"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="1"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="59" type="stmt" count="1"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="61" type="stmt" count="1"/>
+        <line num="62" type="stmt" count="1"/>
+        <line num="64" type="stmt" count="1"/>
+        <line num="67" type="method" name="handlePayment" visibility="public" complexity="3" crap="3.33" count="1"/>
+        <line num="70" type="stmt" count="1"/>
+        <line num="73" type="stmt" count="1"/>
+        <line num="74" type="stmt" count="1"/>
+        <line num="75" type="stmt" count="1"/>
+        <line num="76" type="stmt" count="1"/>
+        <line num="77" type="stmt" count="1"/>
+        <line num="82" type="stmt" count="0"/>
+        <line num="83" type="stmt" count="0"/>
+        <line num="84" type="stmt" count="0"/>
+        <metrics loc="87" ncloc="69" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="30" coveredstatements="23" elements="32" coveredelements="23"/>
+      </file>
+    </package>
+    <file name="/var/www/html/src/Service/TrafficSplitInterface.php">
+      <metrics loc="12" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <metrics files="9" loc="399" ncloc="325" classes="6" methods="17" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="95" coveredstatements="33" elements="112" coveredelements="38"/>
+  </project>
+</coverage>

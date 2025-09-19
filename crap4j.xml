@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<crap_result>
+  <project/>
+  <timestamp>2025-09-19 22:51:43</timestamp>
+  <stats>
+    <name>Method Crap Stats</name>
+    <methodCount>17</methodCount>
+    <crapMethodCount>1</crapMethodCount>
+    <crapLoad>19</crapLoad>
+    <totalCrap>414.92</totalCrap>
+    <crapMethodPercent>5.88</crapMethodPercent>
+  </stats>
+  <methods>
+    <method>
+      <package>App\Controller</package>
+      <className>App\Controller\PaymentController</className>
+      <methodName>__construct</methodName>
+      <methodSignature>__construct(PaymentRouter $router, array $demoGateways)</methodSignature>
+      <fullMethod>__construct(PaymentRouter $router, array $demoGateways)</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>App\Controller</package>
+      <className>App\Controller\PaymentController</className>
+      <methodName>create</methodName>
+      <methodSignature>create(Request $request): JsonResponse</methodSignature>
+      <fullMethod>create(Request $request): JsonResponse</fullMethod>
+      <crap>380</crap>
+      <complexity>19</complexity>
+      <coverage>0</coverage>
+      <crapLoad>19</crapLoad>
+    </method>
+    <method>
+      <package>App\Dto</package>
+      <className>App\Dto\Payment</className>
+      <methodName>__construct</methodName>
+      <methodSignature>__construct(float $amount, string $currency, ?string $id)</methodSignature>
+      <fullMethod>__construct(float $amount, string $currency, ?string $id)</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>App\Dto</package>
+      <className>App\Dto\Payment</className>
+      <methodName>getAmount</methodName>
+      <methodSignature>getAmount(): float</methodSignature>
+      <fullMethod>getAmount(): float</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>App\Dto</package>
+      <className>App\Dto\Payment</className>
+      <methodName>getCurrency</methodName>
+      <methodSignature>getCurrency(): string</methodSignature>
+      <fullMethod>getCurrency(): string</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>App\Dto</package>
+      <className>App\Dto\Payment</className>
+      <methodName>getId</methodName>
+      <methodSignature>getId(): ?string</methodSignature>
+      <fullMethod>getId(): ?string</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>App\Gateway</package>
+      <className>App\Gateway\FakeGateway</className>
+      <methodName>__construct</methodName>
+      <methodSignature>__construct(string $name)</methodSignature>
+      <fullMethod>__construct(string $name)</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>App\Gateway</package>
+      <className>App\Gateway\FakeGateway</className>
+      <methodName>getTrafficLoad</methodName>
+      <methodSignature>getTrafficLoad(): int</methodSignature>
+      <fullMethod>getTrafficLoad(): int</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>App\Gateway</package>
+      <className>App\Gateway\FakeGateway</className>
+      <methodName>handlePayment</methodName>
+      <methodSignature>handlePayment(Payment $payment): void</methodSignature>
+      <fullMethod>handlePayment(Payment $payment): void</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>App\Gateway</package>
+      <className>App\Gateway\FakeGateway</className>
+      <methodName>getName</methodName>
+      <methodSignature>getName(): string</methodSignature>
+      <fullMethod>getName(): string</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>App\Service</package>
+      <className>App\Service\EqualTrafficSplit</className>
+      <methodName>__construct</methodName>
+      <methodSignature>__construct(array $gateways)</methodSignature>
+      <fullMethod>__construct(array $gateways)</fullMethod>
+      <crap>2.15</crap>
+      <complexity>2</complexity>
+      <coverage>66.67</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>App\Service</package>
+      <className>App\Service\EqualTrafficSplit</className>
+      <methodName>handlePayment</methodName>
+      <methodSignature>handlePayment(Payment $payment): PaymentGatewayInterface</methodSignature>
+      <fullMethod>handlePayment(Payment $payment): PaymentGatewayInterface</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>App\Service</package>
+      <className>App\Service\PaymentRouter</className>
+      <methodName>__construct</methodName>
+      <methodSignature>__construct(PaymentGatewayInterface $defaultGateway, array $namedGateways)</methodSignature>
+      <fullMethod>__construct(PaymentGatewayInterface $defaultGateway, array $namedGateways)</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>App\Service</package>
+      <className>App\Service\PaymentRouter</className>
+      <methodName>routePayment</methodName>
+      <methodSignature>routePayment(TrafficSplitInterface $strategy, Payment $payment): PaymentGatewayInterface</methodSignature>
+      <fullMethod>routePayment(TrafficSplitInterface $strategy, Payment $payment): PaymentGatewayInterface</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>App\Service</package>
+      <className>App\Service\PaymentRouter</className>
+      <methodName>getGatewayByName</methodName>
+      <methodSignature>getGatewayByName(string $name): ?PaymentGatewayInterface</methodSignature>
+      <fullMethod>getGatewayByName(string $name): ?PaymentGatewayInterface</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>App\Service</package>
+      <className>App\Service\WeightedTrafficSplit</className>
+      <methodName>__construct</methodName>
+      <methodSignature>__construct(array $gatewaysWithWeights)</methodSignature>
+      <fullMethod>__construct(array $gatewaysWithWeights)</fullMethod>
+      <crap>8.44</crap>
+      <complexity>8</complexity>
+      <coverage>80.95</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>App\Service</package>
+      <className>App\Service\WeightedTrafficSplit</className>
+      <methodName>handlePayment</methodName>
+      <methodSignature>handlePayment(Payment $payment): PaymentGatewayInterface</methodSignature>
+      <fullMethod>handlePayment(Payment $payment): PaymentGatewayInterface</fullMethod>
+      <crap>3.33</crap>
+      <complexity>3</complexity>
+      <coverage>66.67</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+  </methods>
+</crap_result>
