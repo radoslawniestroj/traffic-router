@@ -7,3 +7,16 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+/.phpunit.cache/
+
+/html-coverage/
+/xml-coverage/
+/clover.xml
+/cobertura.xml
+/coverage.php
+/coverage.txt
+/crap4j.xml
+###< phpunit/phpunit ###
